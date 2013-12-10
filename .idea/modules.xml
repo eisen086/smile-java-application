@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/lib/apacheHTTP.iml" filepath="$PROJECT_DIR$/lib/apacheHTTP.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lib/org/json/me/json.iml" filepath="$PROJECT_DIR$/lib/org/json/me/json.iml" />
+      <module fileurl="file://$PROJECT_DIR$/smile.iml" filepath="$PROJECT_DIR$/smile.iml" />
+    </modules>
+  </component>
+</project>
+
