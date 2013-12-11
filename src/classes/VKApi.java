@@ -29,7 +29,7 @@ public class VKApi {
                 display = "page";
                 redirect_uri = "http://oauth.vk.com/blank.html";
                 response_type = "token";
-                scope = "12288";
+                scope = "12290";
                 apiURI = "https://api.vk.com/method/";
         }
 

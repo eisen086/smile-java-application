@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.collections.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="gui.JavaFXController">
+    <children>
+        <TabPane layoutX="0.0" layoutY="0.0" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE">
+            <tabs>
+                <Tab text="News feed">
+                    <content>
+                        <Pane prefHeight="200.0" prefWidth="200.0">
+                            <children>
+                                <TextArea id="news" editable="false" layoutX="14.0" layoutY="14.0" prefHeight="306.0" prefWidth="572.0" promptText="News will be here" wrapText="true" />
+                                <Button id="refreshButton" layoutX="272.0" layoutY="328.0" mnemonicParsing="false" text="Refresh" />
+                            </children>
+                        </Pane>
+                    </content>
+                </Tab>
+                <Tab text="Friends">
+                    <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <ListView id="friendsList" layoutX="14.0" layoutY="14.0" prefHeight="297.0" prefWidth="572.0" />
+                                <Button id="toDialogue" cancelButton="false" contentDisplay="CENTER" defaultButton="false" disable="false" layoutX="259.0" layoutY="319.0" mnemonicParsing="false" text="To dialogue" underline="false" wrapText="true" />
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+                <Tab text="Dialogue">
+                    <content>
+                        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                            <children>
+                                <Pane layoutX="14.0" layoutY="14.0" prefHeight="341.0" prefWidth="572.0">
+                                    <children>
+                                        <ImageView fx:id="myPhoto" fitHeight="48.999900000002526" fitWidth="65.33320254312969" layoutX="14.0" layoutY="278.0" pickOnBounds="true" preserveRatio="true"/>
+                                        <ImageView fx:id="friendsPhoto" cache="false" fitHeight="49.0" fitWidth="65.33333333333333" focusTraversable="false" layoutX="493.0" layoutY="278.0" mouseTransparent="false" pickOnBounds="true" preserveRatio="true" />
+                                        <TextArea fx:id="inputText" layoutX="79.0" layoutY="254.0" prefHeight="49.0" prefWidth="414.0000999999975" promptText="Print your message here" wrapText="true" />
+                                        <Button id="publishButton" onAction="#sendMessage" layoutX="79.0" layoutY="306.0" mnemonicParsing="false" prefWidth="115.0" text="Publish" textAlignment="CENTER"/>
+                                        <TextArea fx:id="chatArea" editable="false" layoutX="79.0" layoutY="52.0" prefHeight="177.0" prefWidth="414.0" wrapText="true" />
+                                        <ComboBox id="friendSelector" disable="false" layoutX="378.0" layoutY="306.0" prefHeight="21.0" prefWidth="115.0" promptText="Select friend">
+                                            <items>
+                                                <FXCollections fx:factory="observableArrayList">
+                                                    <String fx:value="Item 1" />
+                                                    <String fx:value="Item 2" />
+                                                    <String fx:value="Item 3" />
+                                                </FXCollections>
+                                            </items>
+                                        </ComboBox>
+                                        <Label id="frName" layoutX="79.0" layoutY="36.0" prefWidth="200.0" text="Dialogue with" />
+                                    </children>
+                                </Pane>
+                            </children>
+                        </AnchorPane>
+                    </content>
+                </Tab>
+            </tabs>
+        </TabPane>
+    </children>
+</AnchorPane>

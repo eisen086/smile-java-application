@@ -24,5 +24,6 @@ public class DesktopMessagerTest {
             gui.setLocation(832, 384);
             messager.start();
         } catch (Exception e) {System.out.println("just exception");}
+
     }
 }

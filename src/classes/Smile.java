@@ -1,18 +1,19 @@
 package classes;
 
+import org.json.me.*;
+import java.util.*;
+import fields.*;
+
 public class Smile {
     public static void main(String args[]) {
         VKApi api = new VKApi();
-        try {
-            //System.out.println(api.isLogged());
-            
-            
-
-            //System.out.println(api.isLogged());
-            //try {
-            //JSONObject jo = api.executeApiMethod("messages.get?", "time_offset=4000");
-            //System.out.println(jo.toString());
-            //ArrayList<Message> message = Message.parse(jo.toString());
+            try
+            {
+                api.doLogin("your_login", "your_password");
+                JSONObject jo = api.executeApiMethod("friends.get?", "fields=uid,first_name,second_name,sex,photo");
+                ArrayList<Friend> friends = Friend.parse(jo.toString());
+                    for (int i=0; i<friends.size(); ++i)
+                System.out.println(friends.get(i).toString());
             } catch (Exception e) {System.out.println("just exception");}
         //} catch (IOException ioe) {System.out.println("ioexception");}
         //catch (classes.VKException vke) {System.out.println("vkexception");}
