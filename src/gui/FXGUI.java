@@ -12,6 +12,8 @@ import javafx.stage.Stage;
  */
 public class FXGUI extends Application {
 
+    int i=0;
+
     @Override
     public void start(Stage stage) throws Exception {
         Parent root = FXMLLoader.load(getClass().getResource("guifx.fxml"));

@@ -1,4 +1,4 @@
-package fields;
+package vkstructures.fields;
 
 public class Photo extends WallImage {
     public Photo(String photo) {

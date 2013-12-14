@@ -1,4 +1,4 @@
-package fields;
+package vkstructures.fields;
 
 public class Link {
     public String url;

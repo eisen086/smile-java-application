@@ -36,7 +36,7 @@ public class VKApi {
         /*
          * this will obtain acces_token needed for using api methods
          */
-        public void doLogin(String login, String password) throws IOException,
+        public void logIn(String login, String password) throws IOException,
                         VKException {
                 this.login = login;
                 this.password = password;
@@ -121,7 +121,7 @@ public class VKApi {
                 isLoggedIn = true;
         }
 
-        public void doLogout() {
+        public void signOut() {
                 isLoggedIn = false;
         }
 

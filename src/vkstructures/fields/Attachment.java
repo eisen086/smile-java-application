@@ -1,4 +1,4 @@
-package fields;
+package vkstructures.fields;
 import org.json.me.*;
 
 public class Attachment {

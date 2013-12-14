@@ -14,14 +14,18 @@
  * limitations under the License.
  */
 
-package classes;
+package gui;
 
 import java.io.IOException;
 import java.util.ArrayList;
+
+import classes.VKApi;
 import org.json.me.*;
-import threads.MessagePassed;
-import threads.MessageToPass;
+import vkstructures.MessagePassed;
+import vkstructures.MessageToPass;
 import java.util.concurrent.*;
+
+// deprecated
 
 public class Messager {
     
@@ -37,9 +41,9 @@ public class Messager {
             return new Send(message);
         }
     
-    private void startMessageReceiver() {
+    public void startMessageReceiver() {
         Runnable receive = new Receive();
-        Thread messageInputStream = new Thread(receive);
+        //Thread messageInputStream = new Thread(receive);
         ScheduledExecutorService messageReceiver = Executors.newSingleThreadScheduledExecutor();
         messageReceiver.scheduleWithFixedDelay(receive, 0, 1, TimeUnit.SECONDS);
     }
@@ -50,18 +54,13 @@ public class Messager {
         messageOutputStream.start();
     }
     
-    public void start() {
-        startMessageReceiver();
-        //startMessageSender(new MessageToPass(211760821, "keep%20smiling", "title"));
-    }
-    
     private class Receive implements Runnable {
         public void run() {
             try {
                     JSONObject jo = api.executeApiMethod("messages.get?", "time_offset=1");
-                    //System.out.println(jo.toString());
-                    message = MessagePassed.parse(jo.toString());
-                    messagesReceived = message.size();
+                    System.out.println(jo.toString());
+                    //message = MessagePassed.parse(jo.toString());
+                    //messagesReceived = message.size();
             }   catch (JSONException ioe) {System.out.println("JSONException");}
                 catch (Exception e) {System.out.println("another exception");}
         }

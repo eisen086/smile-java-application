@@ -1,9 +1,8 @@
 
-package threads;
+package vkstructures;
 
-import java.io.Serializable;
 import java.util.ArrayList;
-import fields.*;
+import vkstructures.fields.*;
 import java.util.Date;
 import org.json.me.*;
 

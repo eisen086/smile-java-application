@@ -8,9 +8,9 @@ import javafx.fxml.FXML;
 import javafx.fxml.Initializable;
 import javafx.scene.control.*;
 import classes.*;
-import fields.*;
 import org.json.me.JSONObject;
-import threads.*;
+import vkstructures.Friend;
+import vkstructures.MessageToPass;
 
 /**
  *
@@ -25,7 +25,10 @@ public class JavaFXController implements Initializable {
     private VKApi api = new VKApi();
     private Messager messager = new Messager(api);
     private ArrayList<Friend> friends;
-    private long currentFriend;
+    private long currentFriend = 211760821;
+    private long lastQueryForMessage;
+    private long lastQueryForFeed;
+    private long lastQueryForWall;
 
     @FXML
     private void handleButtonAction(ActionEvent event) {
@@ -36,7 +39,7 @@ public class JavaFXController implements Initializable {
     @FXML
     private void sendMessage(ActionEvent event) {
        String message = inputText.getText().replaceAll(" ", "%20").replaceAll("\n", "%0A");
-       messager.startMessageSender(new MessageToPass(211760821, message, ""));
+       messager.startMessageSender(new MessageToPass(currentFriend, message, ""));
        chatArea.appendText(inputText.getText()+'\n');
        inputText.setText("");
     }
@@ -44,10 +47,12 @@ public class JavaFXController implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         try {
-            api.doLogin("your_login", "your_password");
+            api.logIn("your_login", "your_password");
             JSONObject jo = api.executeApiMethod("friends.get?", "fields=uid,first_name,second_name,sex,photo&order=hints");
             friends = Friend.parse(jo.toString());
-            currentFriend = friends.get(0).getUid();
+            currentFriend = friends.get(1).getUid();
+            System.out.println(friends.toString());
+            messager.startMessageReceiver();
         } catch (Exception e) {System.out.println("just exception");}
     }
 

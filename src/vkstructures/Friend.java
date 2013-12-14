@@ -1,4 +1,4 @@
-package classes;
+package vkstructures;
 
 import org.json.me.JSONArray;
 import org.json.me.JSONException;
@@ -19,6 +19,7 @@ public class Friend {
     private String last_name;
     private int sex;
     private String photo;
+    private int isFriend;
 
     public long getUid() {
         return uid;
@@ -76,7 +77,7 @@ public class Friend {
         JSONObject js = new JSONObject(source);
         JSONArray response = js.getJSONArray("response"); ///this throws exception
 
-        for (int i=1; i< response.length(); i++){
+        for (int i=0; i< response.length(); i++){
             result.add(parse((JSONObject)response.get(i)));
         }
         return result;

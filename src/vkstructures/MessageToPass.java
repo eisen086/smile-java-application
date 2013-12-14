@@ -14,10 +14,10 @@
  * limitations under the License.
  */
 
-package threads;
+package vkstructures;
 
 import java.util.ArrayList;
-import fields.*;
+import vkstructures.fields.*;
 
 public class MessageToPass {
     public long uid;

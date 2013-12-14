@@ -1,18 +1,17 @@
-package fields;
+package vkstructures.fields;
 
-import org.json.me.JSONException;
-import org.json.me.JSONObject;
+import org.json.me.*;
 
-public class Graffiti {
-    public long gid;
+public abstract class WallImage {
+    public long pid;
     public long owner_id;
     public String src;
     public String src_big;
     
-    public Graffiti(String wall_image) {
+    public WallImage(String wall_image) {
         try {
             JSONObject jo = new JSONObject(wall_image);
-            gid = jo.getLong("pid");
+            pid = jo.getLong("pid");
             owner_id = jo.getLong("owner_id");
             src = jo.getString("src");
             src_big = jo.getString("src_big");

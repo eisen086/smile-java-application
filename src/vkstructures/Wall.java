@@ -1,9 +1,9 @@
-package threads;
+package vkstructures;
 
 import org.json.me.*;
 import java.io.Serializable;
 import java.util.ArrayList;
-import fields.*;
+import vkstructures.fields.*;
 
 public class Wall implements Serializable {
 
@@ -51,7 +51,7 @@ public class Wall implements Serializable {
 
         ArrayList<Wall> result = new ArrayList<Wall>();
         JSONObject js = new JSONObject(source);
-        JSONArray response = js.getJSONArray("response"); ///this throws exception
+        JSONArray response = js.getJSONArray("response"); // throws exception
 
         for (int i=1; i< response.length(); i++){
             Wall wall = new Wall();
@@ -72,7 +72,6 @@ public class Wall implements Serializable {
                 wall.copy_text = jsono.getString("copy_text");
 
             result.add(wall);
-            System.out.println(wall.toString()); // for test
         }
         return result;
     }
