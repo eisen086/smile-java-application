@@ -23,7 +23,7 @@ public class JavaFXController implements Initializable {
     @FXML
     private TextArea chatArea;
     private VKApi api = new VKApi();
-    private Messager messager = new Messager(api);
+    private Messenger messenger = new Messenger(api);
     private ArrayList<Friend> friends;
     private long currentFriend = 211760821;
     private long lastQueryForMessage;
@@ -39,7 +39,7 @@ public class JavaFXController implements Initializable {
     @FXML
     private void sendMessage(ActionEvent event) {
        String message = inputText.getText().replaceAll(" ", "%20").replaceAll("\n", "%0A");
-       messager.startMessageSender(new MessageToPass(currentFriend, message, ""));
+       messenger.startMessageSender(new MessageToPass(currentFriend, message, ""));
        chatArea.appendText(inputText.getText()+'\n');
        inputText.setText("");
     }
@@ -52,7 +52,7 @@ public class JavaFXController implements Initializable {
             friends = Friend.parse(jo.toString());
             currentFriend = friends.get(1).getUid();
             System.out.println(friends.toString());
-            messager.startMessageReceiver();
+            messenger.startMessageReceiver();
         } catch (Exception e) {System.out.println("just exception");}
     }
 

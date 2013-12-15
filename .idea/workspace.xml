@@ -2,29 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/tests/ApiCallForFriendsTest.java" />
-      <change type="DELETED" beforePath="D:\projects\university\src\classes\Smile.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\university\src\classes\Wall.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\university\src\gui\DesktopMessagerTest.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\university\src\gui\GUIMessager.java" afterPath="" />
-      <change type="DELETED" beforePath="D:\projects\university\src\threads\Feed.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/FXGUI.java" afterPath="$PROJECT_DIR$/src/gui/FXGUI.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/gui/JavaFXController.java" afterPath="$PROJECT_DIR$/src/gui/JavaFXController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/classes/VKApi.java" afterPath="$PROJECT_DIR$/src/classes/VKApi.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\projects\university\src\classes\Friend.java" afterPath="$PROJECT_DIR$/src/vkstructures/Friend.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\classes\FriendsExtractor.java" afterPath="$PROJECT_DIR$/src/tests/ApiCallForFeedTest.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\classes\Messager.java" afterPath="$PROJECT_DIR$/src/gui/Messager.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\App.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/App.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\Attachment.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/Attachment.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\Graffiti.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/Graffiti.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\Link.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/Link.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\Photo.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/Photo.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\PostedPhoto.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/PostedPhoto.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\fields\WallImage.java" afterPath="$PROJECT_DIR$/src/vkstructures/fields/WallImage.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\threads\MessagePassed.java" afterPath="$PROJECT_DIR$/src/vkstructures/MessagePassed.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\threads\MessageToPass.java" afterPath="$PROJECT_DIR$/src/vkstructures/MessageToPass.java" />
-      <change type="MOVED" beforePath="D:\projects\university\src\threads\Wall.java" afterPath="$PROJECT_DIR$/src/vkstructures/Wall.java" />
+      <change type="MOVED" beforePath="D:\projects\university\src\gui\Messager.java" afterPath="$PROJECT_DIR$/src/gui/Messenger.java" />
     </list>
     <ignored path="Smile.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -37,7 +17,7 @@
     <file path="/fragment.java" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1387041052708" ignored="false" />
     <file path="/GUIMessager.java" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1386688155146" ignored="false" />
     <file path="/DesktopMessagerTest.java" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1386688909731" ignored="false" />
-    <file path="/Dummy.txt" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1387029437698" ignored="false" />
+    <file path="/Dummy.txt" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1387104446032" ignored="false" />
     <file path="/FXGUI.java" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1386771450666" ignored="false" />
     <file path="/JavaFXController.java" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1387040090409" ignored="false" />
     <file path="/guifx.fxml" changelist="ec3ec6c9-a4ec-4197-aca2-8c6f94f64d6b" time="1386785713615" ignored="false" />
@@ -113,10 +93,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Messager.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/gui/Messager.java">
+      <file leaf-file-name="Messenger.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/gui/Messenger.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="64" column="36" selection-start="2151" selection-end="2151" vertical-scroll-proportion="0.0">
+            <state line="64" column="36" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -143,7 +123,7 @@
       <file leaf-file-name="JavaFXController.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/gui/JavaFXController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="50" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.5095368">
+            <state line="47" column="27" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.5971979">
               <folding />
             </state>
           </provider>
@@ -153,9 +133,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/ApiCallForFriendsTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="46" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -164,9 +142,7 @@
         <entry file="file://$PROJECT_DIR$/src/tests/ApiCallForFeedTest.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="18" column="46" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -184,9 +160,7 @@
         <entry file="file://$PROJECT_DIR$/src/vkstructures/Wall.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="74" column="0" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1899#1905#0" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -273,8 +247,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -392,19 +366,19 @@
     <property name="project.structure.last.edited" value="Global Libraries" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="options.lastSelected" value="vcs.Git" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../social-network-analysis-master/social-network-analysis-master/AccountsMatching" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
-    <property name="MemberChooser.showClasses" value="true" />
     <property name="FullScreen" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -517,6 +491,19 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -542,19 +529,6 @@
       <envs />
       <properties />
       <listeners />
-      <method />
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
@@ -644,7 +618,11 @@
       <created>1386805215546</created>
       <updated>1386805215546</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="prototype, 12/14/13">
+      <created>1387041553385</created>
+      <updated>1387041553386</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -674,21 +652,21 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39936608" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32646593" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3296355" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298217" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24959481" sideWeight="0.67670363" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32329637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32329637" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280507" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32646593" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
@@ -735,7 +713,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="initial commit, 12/12/13" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototype, 12/14/13" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -751,6 +729,7 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="initial commit, 12/10/13" />
     <MESSAGE value="initial commit, 12/12/13" />
+    <MESSAGE value="prototype, 12/14/13" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -760,6 +739,13 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/vkstructures/Wall.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="74" column="0" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/JavaFXController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="46" column="31" selection-start="1235" selection-end="1235" vertical-scroll-proportion="0.0">
@@ -795,9 +781,7 @@
     <entry file="file://$PROJECT_DIR$/src/vkstructures/Wall.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="74" column="0" selection-start="2932" selection-end="2932" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1899#1905#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -808,9 +792,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/gui/Messager.java">
+    <entry file="file://$PROJECT_DIR$/src/gui/Messenger.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="64" column="36" selection-start="2151" selection-end="2151" vertical-scroll-proportion="0.0">
+        <state line="64" column="36" selection-start="2153" selection-end="2153" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -839,24 +823,20 @@
     <entry file="file://$PROJECT_DIR$/src/tests/ApiCallForFriendsTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="46" selection-start="455" selection-end="455" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/tests/ApiCallForFeedTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="46" selection-start="447" selection-end="447" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/gui/JavaFXController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="50" selection-start="1406" selection-end="1406" vertical-scroll-proportion="0.5095368">
+        <state line="47" column="27" selection-start="1316" selection-end="1316" vertical-scroll-proportion="0.5971979">
           <folding />
         </state>
       </provider>

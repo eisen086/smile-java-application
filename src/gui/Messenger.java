@@ -27,13 +27,13 @@ import java.util.concurrent.*;
 
 // deprecated
 
-public class Messager {
+public class Messenger {
     
     VKApi api;
     public int messagesReceived = 0;
     public ArrayList<MessagePassed> message = null;
     
-    public Messager(VKApi api) {
+    public Messenger(VKApi api) {
         this.api = api;
     }
     
